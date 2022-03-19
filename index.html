@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make-up pop</title>
+    <link rel="stylesheet" href="css/stijl.css">
+</head>
+
+<body>
+    <header>
+        <h1>Make-up pop</h1>
+        <p class="naam"></p>
+    </header>
+
+    <p id=uitleg>
+        1. Knijp mijn pukkels uit <br>
+        2. Epileer mijn wenkbrauwen <br>
+        3. Verf mijn haren blond <br>
+        4. Zoek naar de verstopte tip over mijn lievelingslipkleur... Geef mij die lipkleur <br>
+        5. Doe mijn kleurlenzen in <br>
+        6. Kom erachter wat mijn lievelingskleur is door op mijn ogen te klikken terwijl je shift indrukt. Nu ben ik
+        klaar voor
+        mijn date!
+    </p>
+    <div id='achtergrond'>
+        <img src="images/pop.png" alt="pop" id='pop'>
+        <img src="images/haarbruin.png" alt="haar" id='haar'>
+        <img src="images/oogbruin.png" alt="oog" id='oog'>
+        <img src="images/liproze.png" alt="lip" id='lip'>
+        <img src="images/wenkbrauw.png" alt="wenkbrauw" id='wenkbrauw'>
+
+        <img src="images/pukkel.png" alt="pukkel" id='pukkel'>
+        <img src="images/huid.png" alt="pukkel" id='huid' hidden>
+        <img src="images/pukkel2.png" alt="pukkel" id='pukkel2'>
+        <img src="images/huid2.png" alt="pukkel" id='huid2' hidden>
+
+        <img src="images/eyebrow.png" alt="eyebrow" id='eyebrow'>
+        <img src="images/eye.png" alt="eye" id='eye'>
+        <img src="images/lipstick.png" alt="lipstick" id='lipstick'>
+        <img src="images/hair.png" alt="hair" id='hair'>
+
+        <img src="images/blok1.png" alt="blok" id='blok1'>
+        <img src="images/blok2.png" alt="blok" id='blok2'>
+        <img src="images/blok3.png" alt="blok" id='blok3'>
+        <img src="images/blok4.png" alt="blok" id='blok4'>
+
+        <button id=auwbtn onclick="playAudio()" type="button"> Auw! </button>
+        <button id=kusbtn onclick="playAudio2()" type="button"> Kus </button>
+        <button id=knipoogbtn onclick="playAudio3()" type="button"> Knipoog </button>
+        <button id=wauwbtn onclick="playAudio4()" type="button"> Wauw! </button>
+
+        <audio id="myAudio">
+            <source src="images/ouch.ogg">
+            <source src="images/ouch.mp3">
+        </audio>
+
+        <audio id="myAudio2">
+            <source src="images/kiss.ogg">
+            <source src="images/kiss.mp3">
+        </audio>
+
+        <audio id="myAudio3">
+            <source src="images/blink.ogg">
+            <source src="images/blink.mp3">
+        </audio>
+
+        <audio id="myAudio4">
+            <source src="images/wauw.ogg">
+            <source src="images/wauw.mp3">
+        </audio>
+
+        <button id=naardate hidden> <a href="date.html"> Klaar voor date </a></button>
+    </div>
+
+    <footer>
+        Bronnenlijst: https://thenounproject.com
+    </footer>
+
+    <script src="js/pop.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    padding: 0.5em;
+    background-color: white;
+    color: pink;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    font-size: 0.2em;
+    padding: 0.5em;
+    background-color: white;
+    color: black;
+}
+
+#begintekst {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#eindtekst {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#uitleg {
+    font-size: 12px;
+}
+
+#knipoogbtn {
+    position: absolute;
+    bottom: 420px;
+    right: 120px;
+    text-decoration: none;
+}
+
+#auwbtn {
+    position: absolute;
+    bottom: 420px;
+    right: 380px;
+    text-decoration: none;
+}
+
+#kusbtn {
+    position: absolute;
+    bottom: 160px;
+    right: 400px;
+    text-decoration: none;
+}
+
+#wauwbtn {
+    position: absolute;
+    bottom: 160px;
+    right: 118px;
+    text-decoration: none;
+}
+
+#pop {
+    position: absolute;
+    bottom: 170px;
+    left: 90px;
+}
+
+#oog {
+    position: absolute;
+    bottom: 340px;
+    left: 130px;
+}
+
+#lip {
+    position: absolute;
+    bottom: 202px;
+    left: 185px;
+}
+
+#wenkbrauw {
+    position: absolute;
+    bottom: 420px;
+    left: 100px;
+}
+
+#pukkel {
+    position: absolute;
+    bottom: 460px;
+    left: 300px;
+}
+
+#huid {
+    position: absolute;
+    bottom: 460px;
+    left: 300px;
+}
+#pukkel2 {
+    position: absolute;
+    bottom: 270px;
+    left: 150px;
+}
+
+#huid2 {
+    position: absolute;
+    bottom: 270px;
+    left: 150px;
+}
+
+#eyebrow {
+    position: absolute;
+    left: 500px;
+    bottom: 370px;
+}
+
+#eye {
+    position: absolute;
+    left: 720px;
+    bottom: 410px;
+}
+
+#lipstick {
+    position: absolute;
+    left: 500px;
+    bottom: 200px;
+}
+
+#hair {
+    position: absolute;
+    left: 750px;
+    bottom: 190px;
+}
+
+#blok1 {
+    position: absolute;
+    left: 580px;
+    bottom: 50px;
+}
+
+#blok2 {
+    position: absolute;
+    left: 680px;
+    bottom: 50px;
+}
+
+#blok3 {
+    position: absolute;
+    left: 780px;
+    bottom: 50px;
+}
+
+#blok4 {
+    position: absolute;
+    left: 880px;
+    bottom: 50px;
+}
+
+#popbegin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#startbutton {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#datemeisje {
+    position: absolute;
+    left: 500px;
+    bottom: 40px;
+}
+
+#datejongen {
+    position: absolute;
+    left: 80px;
+    bottom: 130px;
+}
+
+#achtergrond {
+    width: 1000px;
+    height: 600px;
+    position: relative; 
+    overflow: hidden; 
+    border: 2px solid black;
+    margin-inline: auto;
+    margin-block: auto;
+}
+
+#achtergrond * {
+    font:inherit; 
+}

@@ -25,13 +25,6 @@ p {
     font-size: 15px;
 }
 
-button {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    text-decoration: none;
-}
-
 footer {
     text-align: center;
     width: 100%;
@@ -193,14 +186,27 @@ footer {
     width: 50%;
 }
 
-#startbutton {
-    display: block;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-}
+a {
+    padding: .5em .8em;
+    border-radius: .4em ;
+    background: #96e0aa ;
+    color:#eeeeee;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background: #96e0aa;
+  }
+  a:active {
+    color: black;
+    background: white;
+  }
 
 #datemeisje {
     position: absolute;
